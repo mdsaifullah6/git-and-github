@@ -1,0 +1,17 @@
+.this{
+     background-image: url(pic\ html/s1.jpg);
+    background-repeat: no-repeat;
+    ba
+}
+#khaled{ background-image: url(pic\ html/s3.jpg);
+    background-repeat: no-repeat;
+    background-position: right;
+   background-color: blue;
+   border: 10px solid darkolivegreen;
+   border-radius: 10px ;
+   text-align: center;
+   padding-top: 20px;
+   padding: 10px 20px 40px 80px; 
+   margin-bottom: 20px;
+   box-shadow: 10px 15px 25px aquamarine;
+}
