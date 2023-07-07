@@ -3,9 +3,10 @@
     background-repeat: no-repeat;
     ba
 }
-#khaled{ background-image: url(pic\ html/s3.jpg);
-    background-repeat: no-repeat;
-    background-position: right;
+#khaled
+{  background-image: url(pic\ html/s3.jpg);
+   background-repeat: no-repeat;
+   background-position: right;
    background-color: blue;
    border: 10px solid darkolivegreen;
    border-radius: 10px ;
@@ -14,4 +15,15 @@
    padding: 10px 20px 40px 80px; 
    margin-bottom: 20px;
    box-shadow: 10px 15px 25px aquamarine;
+}
+.beach
+{
+
+   background-image: url(pic\ html/s2.jpg);
+   box-shadow: 20px 25px 40px royalblue;
+   border-radius: 10px;
+   border:10px dashed black;
+   padding:10px 20px 30px 40px;
+   margin-bottom: 20px;
+
 }
