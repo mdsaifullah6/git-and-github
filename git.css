@@ -27,3 +27,34 @@
    margin-bottom: 20px;
 
 }
+nav >ul{
+   display:flex ;
+}
+nav li{
+   list-style: none;
+   margin-right: 15px;
+}
+nav li a{
+   text-decoration: none;
+   color: rgb(0, 0, 156);
+
+}
+nav li:hover{
+   background-color: lightskyblue;
+}
+
+nav li .dropdown{
+   display: none;
+   position: absolute;
+   background-color: lightgreen;
+}
+/* this is table design */
+td ,th{
+   border: 1px solid red;
+
+   
+}
+table{
+   border-collapse: collapse;
+}
+/* this is end */
