@@ -26,3 +26,14 @@ nav li:hover .dropdown{
     display: block;
     
 }
+.foot{
+    background-color: lightgreen;
+    padding: 20px;
+}
+.foot1{
+    list-style-type: none;
+}
+footer li a{
+    text-decoration: none;
+    text-align: left;
+}
