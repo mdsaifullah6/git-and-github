@@ -30,6 +30,10 @@
 nav >ul{
    display:flex ;
 }
+nav li:hover{
+   background-color: lightgreen;
+}
+
 nav li{
    list-style: none;
    margin-right: 15px;
@@ -39,14 +43,10 @@ nav li a{
    color: rgb(0, 0, 156);
 
 }
-nav li:hover{
-   background-color: lightskyblue;
-}
 
-nav li .dropdown{
+nav  li .dropdown{
    display: none;
-   position: absolute;
-   background-color: lightgreen;
+
 }
 nav li:hover .dropdown{
    display :block;
