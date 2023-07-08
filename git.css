@@ -48,6 +48,9 @@ nav li .dropdown{
    position: absolute;
    background-color: lightgreen;
 }
+nav li:hover .dropdown{
+   display :block;
+}
 /* this is table design */
 td ,th{
    border: 1px solid red;
