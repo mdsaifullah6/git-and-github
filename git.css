@@ -160,29 +160,40 @@ border-radius:;
 
 /* skil end */
 /* resume section */
-.resume-column-title{
+.resume-items-title{
 
 color: #474747;
 font-size: 20px;
 font-weight: 700;
 border: radius 10px;
+margin-bottom: 10px
 }
 .resume-cointainer{
     display: flex;
     width: 511px;
     flex-direction: column;
     flex-shrink: 0;
+}
+.resume-items-institute{
+    margin-top: 20px;
 
 }
-resume-item{
-    color: #757575;
+
+.resume-items-institute ,
+.resume-item-description{
+    color: #161515;
 font-size: 20px;
 font-weight: 600;
 }
-resume-item-description{
+.resume-container{
     display: flex;
-width: 511px;
-flex-direction: column;
-flex-shrink: 0;
+    gap:50px
 
+}
+.resume-container hr{
+    margin:30px ;
+}
+.download-cv{
+    text-align: center;
+    margin-top: 50px;
 }
