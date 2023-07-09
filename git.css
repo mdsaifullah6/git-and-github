@@ -68,13 +68,17 @@ nav li{
 .headcls{
     background: #fff8f1;
     background-image: url(portfolio-resources/images/header_bg.png);
+    background-image: url(portfolio-resources/images/developer.png);
     background-repeat: no-repeat;
     background-position: bottom right;
+    background-position: bottom left;
 }
+
 .banner{
     padding:30px 30px 0px 100px;
     display: flex;
     align-items: center;
+
     justify-content: space-between;
     
 }
