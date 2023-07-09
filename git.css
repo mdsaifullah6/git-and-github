@@ -159,3 +159,30 @@ border-radius:;
 
 
 /* skil end */
+/* resume section */
+.resume-column-title{
+
+color: #474747;
+font-size: 20px;
+font-weight: 700;
+border: radius 10px;
+}
+.resume-cointainer{
+    display: flex;
+    width: 511px;
+    flex-direction: column;
+    flex-shrink: 0;
+
+}
+resume-item{
+    color: #757575;
+font-size: 20px;
+font-weight: 600;
+}
+resume-item-description{
+    display: flex;
+width: 511px;
+flex-direction: column;
+flex-shrink: 0;
+
+}
