@@ -101,8 +101,18 @@ nav li{
 }
 
 /* main section */
-  
+  main{
+    max-width: 1140px;
+    margin:0px auto;
+  }
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
 
+}
+.about-info{
+    text-align: center;
+}
 
 
 
@@ -111,5 +121,5 @@ nav li{
     padding: 120px;
     background: #f1e6db;
     border-radius: 10px;
-    margin: 120px;
+    
 }
