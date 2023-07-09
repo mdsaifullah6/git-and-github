@@ -8,8 +8,20 @@ span{
 }
 
 
+.sec-title{
+    color: #181818;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
 
-
+}
+.sec-description{
+    color: #757575;
+text-align: center;
+font-size: 18px;
+font-weight: 400;
+line-height: 30px;
+}
 
 nav{
    display: flex;
@@ -55,17 +67,49 @@ nav li{
 
 .headcls{
     background: #fff8f1;
+    background-image: url(portfolio-resources/images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
 }
 .banner{
-    padding:30px 30px 30px 100px;
+    padding:30px 30px 0px 100px;
     display: flex;
     align-items: center;
+    justify-content: space-between;
     
 }
 .banner.img{
     width: 500px;
+    margin-right: 0px;
 
 }
-.banner-containt{
-    
+.banner-g{
+    font-size: 45px;
+    margin-bottom: 0px;
+   
+}
+.banner-ti{
+    font-size: 85px;
+    font-weight: 600;
+    margin-top: 0px;
+}
+.banner-des{margin-top: 5px;
+
+}
+.banner-content{
+    max-width: 500px;
+}
+
+/* main section */
+  
+
+
+
+
+/* about section width */
+.about{
+    padding: 120px;
+    background: #f1e6db;
+    border-radius: 10px;
+    margin: 120px;
 }
