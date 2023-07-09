@@ -1,0 +1,63 @@
+.this{
+    background-image: url(pic\ html/s1.jpg);
+   background-repeat: no-repeat;
+   ba
+}
+#khaled
+{  background-image: url(pic\ html/s3.jpg);
+  background-repeat: no-repeat;
+  background-position: right;
+  background-color: blue;
+  border: 10px solid darkolivegreen;
+  border-radius: 10px ;
+  text-align: center;
+  padding-top: 20px;
+  padding: 10px 20px 40px 80px; 
+  margin-bottom: 20px;
+  box-shadow: 10px 15px 25px aquamarine;
+}
+.beach
+{
+
+  background-image: url(pic\ html/s2.jpg);
+  box-shadow: 20px 25px 40px royalblue;
+  border-radius: 10px;
+  border:10px dashed black;
+  padding:10px 20px 30px 40px;
+  margin-bottom: 20px;
+
+}
+nav >ul{
+  display:flex ;
+}
+nav li:hover{
+  background-color: lightgreen;
+}
+
+nav li{
+  list-style: none;
+  margin-right: 15px;
+}
+nav li a{
+  text-decoration: none;
+  color: rgb(0, 0, 156);
+
+}
+
+nav  li .dropdown{
+  display: none;
+
+}
+nav li:hover .dropdown{
+  display :block;
+}
+/* this is table design */
+td ,th{
+  border: 1px solid red;
+
+  
+}
+table{
+  border-collapse: collapse;
+}
+/* this is end */
